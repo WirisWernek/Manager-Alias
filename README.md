@@ -1,5 +1,13 @@
 # Manager-Alias
 
+<a href="https://youtu.be/H1cebc_95jI"><img src="https://i.imgur.com/oQhfCuO.png" style="
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 50%;"></a>
+
+<a href="https://youtu.be/H1cebc_95jI"><img src="https://i.imgur.com/Uzk1iD0.png" style="width: 5%;"></a>
+
 Que tal gerenciar todos os seus alias de um único local? Pesquisar e encontrar o que você precisa sem ter que ficar lendo diversos arquivos? Este é o CLI certo para você.
 
 Com o Manager-Alias fica muito mais fácil encontrar seus alias diretamente no seu terminal.
