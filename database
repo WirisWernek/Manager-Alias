@@ -1,0 +1,103 @@
+vagrant init
+vgi
+inicia o vagrant em um diretório
+
+vagrant up
+vup
+sobe uma vm
+
+vagrant destroy
+vd
+destroi uma vm
+
+vagrant destroy -f
+vdf
+força a destruição de uma vm
+
+vagrant ssh
+vssh
+conecta via ssh em uma vm
+
+vagrant ssh-config
+vsshc
+mostra o arquivo de configuração de ssh
+
+vagrant rdp
+vrdp
+conecta via rdp em uma vm(duvidoso)
+
+vagrant halt
+vh
+desliga uma vm
+
+vagrant suspend
+vssp 
+suspende uma vm
+
+vagrant status
+vst
+exibe o status de uma vm
+
+vagrant resume
+vre
+continua uma vm suspensa
+
+vagrant global-status
+vgs
+exibe o status global de todas as vms(duvidoso)
+
+vagrant provision
+vpr 
+realiza a provisionamento de uma vm
+
+vagrant reload
+vr 
+recarrega uma vm
+
+vagrant reload --provision
+vpr
+recarrega o provisionamento de uma vm
+
+vagrant push
+vp 
+envia um arquivo para uma vm
+
+vagrant share
+vsh
+cria um link para uma vm(duvidoso)
+
+vagrant box add
+vba 
+adiciona uma box
+
+vagrant box remove
+vbr
+remove uma box
+
+vagrant box list
+vbl
+lista as boxes
+
+vagrant box outdated
+vbo
+verifica se uma box está desatualizada
+
+vagrant box update
+vbu
+atualiza uma box
+
+vagrant plugin install
+vpli
+adiciona um plugin
+
+vagrant plugin list
+vpll
+lista os plugins instalados
+
+vagrant plugin uninstall
+vplun
+desinstala um plugin
+
+vagrant plugin update
+vplu
+atualiza um plugin
