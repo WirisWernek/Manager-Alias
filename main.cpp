@@ -13,14 +13,15 @@ struct alias
 void Buscar(char comando[50])
 {
     char cmd[256];
-    sprintf(cmd, "cat ./database | grep -A 2 '%s'", comando);
+    sprintf(cmd, "cat $MALIAS/database | grep -A 2 '%s'", comando);
     system(cmd);
+    printf("---Fim Da Busca---\n");
 }
 
 void Register(Alias Item)
 {
     char cmd[300];
-    sprintf(cmd, "echo '\nComando: %s\nAlias: %s\nDescrição: %s' >> ./database", Item.comando, Item.alias, Item.descricao);
+    sprintf(cmd, "echo '\nComando: %s\nAlias: %s\nDescrição: %s' >> $MALIAS/database", Item.comando, Item.alias, Item.descricao);
     system(cmd);
 }
 
@@ -32,6 +33,7 @@ int main(int argc, char *argv[])
         return 0;
     }
     Alias Item;
+    char comando[50];
     int option;
     do
     {
@@ -58,22 +60,24 @@ int main(int argc, char *argv[])
         case 2:
             system("clear");
             printf("Modo de Busca");
-            system("nano ./database");
+            system("nano $MALIAS/database");
             break;
         case 3:
             system("clear");
             printf("Modo de Busca");
             setbuf(stdin, NULL);
             printf("\nComando: ");
-            scanf("%[^\n]s", Item.comando);
-            Buscar(Item.comando);
+            scanf("%[^\n]s", comando);
+            Buscar(comando);
             printf("\n");
+            setbuf(stdin, NULL);
+            getc(stdin);
             break;
         case 4:
             return 0;
             break;
         case 5:
-            system("less ./database");
+            system("less $MALIAS/database");
             break;
         default:
             setbuf(stdin, NULL);
