@@ -1,10 +1,13 @@
 # Manager-Alias
 
-<a href="https://youtu.be/H1cebc_95jI"><img src="https://i.imgur.com/oQhfCuO.png" style="
+<a href="https://youtu.be/H1cebc_95jI" style="
     margin-left: auto;
     margin-right: auto;
     display: block;
-    width: 50%;"></a>
+    width: 50%;">
+    <img src="https://i.imgur.com/oQhfCuO.png" >
+</a>
+
 
 <a href="https://youtu.be/H1cebc_95jI"><img src="https://i.imgur.com/Uzk1iD0.png" style="width: 5%;"></a>
 
