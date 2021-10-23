@@ -59,8 +59,8 @@ int main(int argc, char *argv[])
             break;
         case 2:
             system("clear");
-            printf("Modo de Busca");
-            system("nano $MALIAS/database");
+            printf("Modo de Edição");
+            system("vim $MALIAS/database");
             break;
         case 3:
             system("clear");
